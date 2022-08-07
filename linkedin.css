@@ -59,8 +59,12 @@ i:hover {
 }
 
 input.content {
-  border-radius: 40px;
-  height: 45px;
+  border-radius: 50px;
+  height: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 input.content::placeholder {
   font-weight: bolder;
@@ -73,6 +77,10 @@ input.content::placeholder {
 
 div.card {
   border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .header {

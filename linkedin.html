@@ -18,7 +18,8 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="body " style="margin-top: 100px;">
+  <body class="body" style="margin-top: 80px; background-color: rgb(241, 241, 241);
+;">
     <!-- navbar -->
     <div class="container">
 <nav class="navbar navbar-expand-sm navbar-light bg-light  fixed-top small p-0 align-middle">
@@ -130,11 +131,11 @@
     
 
     <div class="container">
-      <div class="row" style="margin-top: 100;">
+      <div class="row" style="margin-top: 80px;">
         <!-- sol panel -->
         <div class="d-none d-sm-block col-xs-2 mt-1">
           <!-- sol panel -->
-          <div class="card" style="width: 14rem">
+          <div class="card" style="width: 14rem ">
             <div
               class="card-header"
               style="
@@ -202,7 +203,7 @@
               <div class="card-title">
                 <img
                   src="assets/siyahekran.png"
-                  style="width: 32px; height: 32px"
+                  style="width: 32px; height: 32px; margin-top: 33px;"
                 />
                 <div
                   style="
@@ -230,14 +231,14 @@
             </div>
           </div>
           <div
-            class="card mt-2"
-            style="width: 14rem;"
+            class="card mt-2 sticky-top overflow-auto"
+            style="width: 14rem; margin-top:  4rem;"
           >
             <div
-              class="card-header bg-white border-0"
-              style="font-size: 12px"
+              class="card-header bg-white border-0 "
+              style="font-size: 12px; margin-top:  4rem; "
             >
-              En Yeni
+              <span>En Yeni</span> 
             </div>
             <div class="card-body">
               <div class="card-title">
@@ -346,36 +347,40 @@
               <input
                 type="text"
                 class="form-control content"
+                style="border-radius: 20px; height: 45px;"
                 placeholder="Bir gönderi başlat"
               />
-              <span
-                ><button class="mediatext">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false">
+              <div class="container mt-3 ml-auto" >
+                <div class="row " >
+                    <button class="mediatext  btn btn-light mr-2 flex-fill" style="border-style: hidden;">
+                  <svg xmlns="http://www.w3.org/2000/svg" " viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false">
   <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z"></path>
-</svg><span class="ml-1 mediatext">Fotoğraf</span>
-                </button></span
-              >
-              <span
-                ><button class="mediatext">
+</svg><span class="mediatext">Fotoğraf</span>
+                </button>
+              
+                <button class="mediatext  btn btn-light mr-4 flex-fill" style="border-style: hidden;">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false">
   <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"></path>
 </svg><span class="ml-1 mediatext">Video</span>
-                </button></span
-              >
-              <span
-                ><button class="mediatext">
+                </button>
+             <button class="mediatext  btn btn-light mr-4 flex-fill" style="border-style: hidden;"">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false">
   <path d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z"></path>
 </svg><span class="ml-1 mediatext">Etkinlik</span>
-                </button></span
-              >
-              <span
-                ><button class="mediatext">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="" width="24" height="24" focusable="false">
-  <path d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"></path>
-</svg><span class="ml-1 mediatext">Yazı yaz</span>
-                </button></span
-              >
+                </button>
+            
+                <button class="mediatext  btn btn-light mr-4 flex-fill " style="border-style: hidden; ">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="" width="24" height="24" focusable="false">
+                    
+                    <path d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"></path>
+            
+                            </svg>
+                            <span class="mediatext ">Yazı yaz</span>
+                    </span>
+
+                </button>
+                </div>
+              </div>
             </div>
           </div>
           <div>
